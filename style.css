@@ -1,0 +1,77 @@
+:root {
+	--cols: 5;
+	--gridGap: 20px;
+}
+
+html {
+	background-color: black;
+	color: white;
+	/*background-image: URL("kkj2.png");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position-x:center;
+	border: 5%;
+	border-color:blue;;
+	padding: 2%;
+	margin: 1%;*/
+}
+
+.grid-container {
+	display: grid;
+	grid-gap: var(--gridGap);
+	grid-template-columns: repeat(var(--cols)-1,1fr);
+}
+
+.topLeft {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	background-image: URL("tl.png");
+	background-size: 10%;
+	/*background-repeat: no-repeat;*/
+}
+.topCenter {
+	grid-column-start: 2;
+	grid-column-end: var(--cols);
+	/*text-align: center;*/
+	background-image: URL("tc.png");
+	background-size: 100%;
+}
+.topRight {
+	grid-column-start: var(--cols);
+	grid-column-end: var(--cols);
+	background-image: URL("tr.png");
+	background-size: 10%;
+}
+.leftMenu {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+.rightMenu {
+	grid-column-start: var(--cols);
+	grid-column-end: var(--cols);
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+.lrMenu {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	/*grid-row-start: 2;
+	grid-row-end: 4;*/
+}
+
+.rlMenu {
+	grid-column-start: var(--cols)-1.0;
+	grid-column-end: var(--cols);	
+}
+
+div>.lrMenu{
+	font-size: 70px;
+}
+
+div>.rlmenu{
+	font-size: 70px;
+}
