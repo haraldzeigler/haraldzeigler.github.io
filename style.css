@@ -41,7 +41,7 @@ html {
 	grid-column-start: 1;
 	grid-column-end: 1;
 	background-image: URL("tl.png");
-	background-size: 49%;
+	background-size: 70%;
 	/*position: absolute;
 	overflow: hidden;
 	*/
@@ -52,13 +52,13 @@ html {
 	grid-column-end: var(--cols);
 	/*text-align: center;*/
 	background-image: URL("tc.png");
-	background-size: 10%;
+	background-size: 500%;
 }
 .topRight {
 	grid-column-start: var(--cols);
 	grid-column-end: var(--cols);
 	background-image: URL("tr.png");
-	background-size: 100%;
+	background-size: 70%;
 
 	/*position: absolute;*/
 }
