@@ -41,7 +41,7 @@ html {
 	grid-column-start: 1;
 	grid-column-end: 1;
 	background-image: URL("tl.png");
-	background-size: 10%;
+	background-size: 50%;
 	/*position: absolute;
 	overflow: hidden;
 	*/
@@ -58,7 +58,7 @@ html {
 	grid-column-start: var(--cols);
 	grid-column-end: var(--cols);
 	background-image: URL("tr.png");
-	background-size: 10%;
+	background-size: 100%;
 
 	/*position: absolute;*/
 }
